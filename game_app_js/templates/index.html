@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    <title>Game</title>
+</head>
+<body>
+  <header>
+    <ul class="navbar">
+      <li>
+        <a href="/">Accueil</a>
+      </li>
+      <li>
+        <a href="/dashboard">Dashboard</a>
+      </li>
+      <li>
+        <a href="#">Tableau de chasse</a>
+        <ul>
+          <li><a href="/stats" >Tableau de chasse</a></li>
+          <li><a href="#">Graphique</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Outils</a>
+        <ul>
+          <li><a href="#">Outils</a></li>
+        </ul>
+      </li>
+    </ul>
+  <button class="disconnect" type="=button">
+    Deconnexion 
+  </button>
+  </header>
+ 
+        
+</body>
+<footer>
+  <p>Contact : contact@contact.fr</p>
+</footer>
+</html>
